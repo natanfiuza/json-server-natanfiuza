@@ -6,6 +6,13 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "n@taniel.com.br",
+      "password": "$2a$10$thmqYb6vet2XCRYzOeckVe7CkfdepGU1DwYJ.EeY2M6nV9RNznthm",
+      "name": "NatanFiuza",
+      "age": 45,
+      "id": 2
     }
   ]
 }
