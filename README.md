@@ -112,6 +112,7 @@ Retorna os dados do usuário passado por **:id** e com a lista de **techs** rela
 Result:
 
 ```json
+{
 	"email": "kenzinho@mail.com",
 	"password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
 	"name": "Kenzinho",

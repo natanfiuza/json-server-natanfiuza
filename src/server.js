@@ -16,6 +16,16 @@ const rules = auth.rewriter({
   techs: 644,
 });
 
+const help = (res) => {
+   const dataRead = readFileSync("./README.md").toString("utf8");
+   converter = new showdown.Converter();
+   res.type("text/html");
+   res.send(converter.makeHtml(dataRead));
+}
+
+app.get("/", (req, res, next) => {
+help(res);
+});
 // Adiciona o campo createdAt com a data de criação do registro
 app.post("/register", (req, res, next) => {
   req.body.createdAt = new Date().toUTCString();
@@ -27,10 +37,7 @@ app.get("/echo", function (req, res) {
 });
 
 app.get("/help", function (req, res) {
-  const dataRead = readFileSync("./README.md").toString("utf8");
-  converter = new showdown.Converter();
-  res.type("text/html");
-  res.send(converter.makeHtml(dataRead));
+ help(res);
 });
 app.post("/techs", function (req, res,next) {  
   if (req.query.userId) {
