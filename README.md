@@ -9,13 +9,14 @@ Esta é uma API de exemplo usando a biblioteca JSON-Server e JSON-Server-Auth, s
 
 ## Heroku 
 
-Acessar API no Heroku
-(https://json-server-natanfiuza.herokuapp.com/)[https://json-server-natanfiuza.herokuapp.com/]
+Acessar API no Heroku:
+
+[https://json-server-natanfiuza.herokuapp.com/](https://json-server-natanfiuza.herokuapp.com/)
 
 ## Insomnia
 
 Use o botão abaixo para importar todas as requisições da API:
- 
+
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=FAKE%20API&uri=https%3A%2F%2Fgithub.com%2Fnatanfiuza%2Fjson-server-natanfiuza%2Fblob%2Fmain%2FInsomnia.json)
 ## **Endpoints**
 
